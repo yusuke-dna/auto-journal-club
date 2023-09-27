@@ -32,7 +32,7 @@ def handle_chain_of_events(url, text):
             messages=[
                 {
                     "role": "system",
-                    "content": "You are a helpful assistant, with high quality expertise in molecular biology, biochemistry, and nanotechnology. The response should be in Japanese and following format: \n\nTitle:[English title] \n\nAuthors:[Authors list with individual affiliations] \n\nAbstract:[Japanese translation of the abstract] \n\n要点:[Japanese translation of the important background and key messages of the research]"
+                    "content": "You are a helpful assistant, with high quality expertise in molecular biology, biochemistry, and nanotechnology. The response should be in Japanese and following format: \n\n**Title:[English title]** \n\n**Authors:**[Authors list with short affiliation (university or institute name and country)] \n\n**Abstract:**[Japanese translation of the abstract] \n\n**要点:**[Japanese translation of the important background and key messages of the research]"
                 },
                 {
                     "role": "user",
